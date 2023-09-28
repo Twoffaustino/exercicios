@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.973);
+    text-align: center;
+    position: fixed;
+    
+    
+}
+
+section.curso{
+    height: 100px;
+    background: blue;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+
+a{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a:hover{
+    background-color: rgba(228, 222, 222, 0.37);
+    border-radius: 5px;
+    
+}
+
+a#form{
+    background-color: rgb(136, 17, 96);
+    margin-left: 200px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    background-color: rgb(209, 13, 13);
+    color: white;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 4px rgb(8, 8, 8);
+    
+}
+
+p#segundo{
+    background-color: rgba(7, 0, 0, 0.616);
+    height: 150px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div#foto{
+    background-image: url(img/fundo.jpeg);
+    height: 150px;
+    background-position: center;
+    margin-top: 0px;
+    
+}
+
+div#jovem{
+   
+    background-color: #c5dff6;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+img.jovem{
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: 0px;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+   background: linear-gradient(90deg, rgba(91, 30, 151, 1) 0%, rgba(77,39,182,1)100%);
+}
+
+h2{
+    color: white;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+
+    
